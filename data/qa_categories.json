@@ -1,0 +1,20 @@
+{
+  "en": {
+    "greetings": [
+      {"question": "hello", "answer": "Hello! How can I help you today?"},
+      {"question": "hi", "answer": "Hi there! How can I assist you?"},
+      {"question": "good morning", "answer": "Good morning! Have a wonderful day!"}
+    ],
+    "general": [
+      {"question": "what is your name", "answer": "I'm a multilingual AI chatbot!"},
+      {"question": "what can you do", "answer": "I can answer questions and help with information!"}
+    ],
+    "knowledge": [
+      {"question": "what is ai", "answer": "AI is artificial intelligence..."},
+      {"question": "capital of india", "answer": "New Delhi"}
+    ],
+    "fun": [
+      {"question": "tell me a joke", "answer": "Why don't scientists trust atoms? Because they make up everything!"}
+    ]
+  }
+}

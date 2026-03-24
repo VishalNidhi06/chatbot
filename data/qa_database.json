@@ -5,64 +5,196 @@
       "answer": "Hello! How can I help you today?"
     },
     {
+      "question": "hi",
+      "answer": "Hi there! How can I assist you?"
+    },
+    {
+      "question": "hey",
+      "answer": "Hey! What can I do for you today?"
+    },
+    {
+      "question": "good morning",
+      "answer": "Good morning! Have a wonderful day ahead!"
+    },
+    {
+      "question": "good afternoon",
+      "answer": "Good afternoon! How can I help you?"
+    },
+    {
+      "question": "good evening",
+      "answer": "Good evening! Hope you're having a great day!"
+    },
+    {
       "question": "how are you",
-      "answer": "I'm doing great! Thanks for asking. How can I assist you?"
+      "answer": "I'm doing great! Thanks for asking. How can I assist you today?"
+    },
+    {
+      "question": "how are you doing",
+      "answer": "I'm functioning perfectly! Ready to help you with anything you need."
+    },
+    {
+      "question": "what's up",
+      "answer": "Not much! Just here to help you. What can I do for you?"
     },
     {
       "question": "what is your name",
-      "answer": "I'm a multilingual chatbot powered by AI. You can call me ChatBot!"
+      "answer": "I'm a multilingual AI chatbot. You can call me ChatBot or give me any name you like!"
+    },
+    {
+      "question": "who are you",
+      "answer": "I'm an AI-powered chatbot that can understand multiple languages. I can help you with general questions and information."
+    },
+    {
+      "question": "what can you do",
+      "answer": "I can answer questions, have conversations, help with information, and support multiple languages! Just ask me anything."
     },
     {
       "question": "help",
-      "answer": "I can help you with general questions. If I'm online, I'll use AI to give you better answers!"
+      "answer": "I can help you with: \n- Answering general questions\n- Providing information\n- Having conversations\n- Supporting multiple languages\n\nJust type your question and I'll do my best to help!"
     },
     {
       "question": "bye",
-      "answer": "Goodbye! Have a great day!"
-    }
-  ],
-  "es": [
-    {
-      "question": "hola",
-      "answer": "¡Hola! ¿Cómo puedo ayudarte hoy?"
+      "answer": "Goodbye! Have a great day! Feel free to come back if you need any help."
     },
     {
-      "question": "cómo estás",
-      "answer": "¡Estoy muy bien! Gracias por preguntar. ¿Cómo puedo ayudarte?"
-    }
-  ],
-  "fr": [
-    {
-      "question": "bonjour",
-      "answer": "Bonjour! Comment puis-je vous aider aujourd'hui?"
-    }
-  ],
-  "de": [
-    {
-      "question": "hallo",
-      "answer": "Hallo! Wie kann ich Ihnen heute helfen?"
-    }
-  ],
-  "zh": [
-    {
-      "question": "你好",
-      "answer": "你好！我今天能帮你什么？"
-    }
-  ],
-  "ja": [
-    {
-      "question": "こんにちは",
-      "answer": "こんにちは！どのようにお手伝いできますか？"
-    }
-  ],
-  "hi": [
-    {
-      "question": "नमस्ते",
-      "answer": "नमस्ते! आज मैं आपकी कैसे मदद कर सकता हूँ?"
+      "question": "goodbye",
+      "answer": "Goodbye! Take care and see you next time!"
     },
     {
-      "question": "आप कैसे हैं",
-      "answer": "मैं बहुत अच्छा हूँ! पूछने के लिए धन्यवाद। मैं आपकी कैसे सहायता कर सकता हूँ?"
+      "question": "see you later",
+      "answer": "See you later! Have a wonderful day!"
+    },
+    {
+      "question": "thank you",
+      "answer": "You're welcome! I'm glad I could help. Is there anything else you need?"
+    },
+    {
+      "question": "thanks",
+      "answer": "You're welcome! Happy to help!"
+    },
+    {
+      "question": "thank you very much",
+      "answer": "My pleasure! Don't hesitate to ask if you need anything else."
+    },
+    {
+      "question": "sorry",
+      "answer": "No problem at all! How can I help you?"
+    },
+    {
+      "question": "what is ai",
+      "answer": "AI (Artificial Intelligence) is the simulation of human intelligence in machines. I'm an example of AI, designed to understand and respond to your questions naturally."
+    },
+    {
+      "question": "what is machine learning",
+      "answer": "Machine Learning is a subset of AI that allows systems to learn and improve from experience without being explicitly programmed. It's how chatbots like me get better at understanding language!"
+    },
+    {
+      "question": "what is python",
+      "answer": "Python is a popular programming language known for its simplicity and readability. It's widely used for web development, data science, AI, and automation."
+    },
+    {
+      "question": "what is the weather like",
+      "answer": "I don't have access to real-time weather data, but you can check a weather website or app for current conditions in your area!"
+    },
+    {
+      "question": "tell me a joke",
+      "answer": "Why don't scientists trust atoms? Because they make up everything! 😄"
+    },
+    {
+      "question": "tell me another joke",
+      "answer": "What do you call a fake noodle? An impasta! 🍝"
+    },
+    {
+      "question": "what is the meaning of life",
+      "answer": "That's a deep question! Many say it's 42 (thanks to Douglas Adams), but I believe it's about finding happiness, helping others, and making a positive impact!"
+    },
+    {
+      "question": "do you like music",
+      "answer": "I appreciate all kinds of music! While I can't listen, I can tell you about different genres, artists, and songs."
+    },
+    {
+      "question": "what is your favorite color",
+      "answer": "I like all colors, but if I had to choose, I'd say blue because it represents intelligence and calmness!"
+    },
+    {
+      "question": "can you sing",
+      "answer": "I can't sing, but I can share song lyrics or recommend music if you'd like!"
+    },
+    {
+      "question": "do you have feelings",
+      "answer": "I don't have emotions like humans do, but I'm programmed to understand and respond to yours empathetically!"
+    },
+    {
+      "question": "how old are you",
+      "answer": "I was created recently, but my knowledge spans across time! I'm as young as the latest update and as old as the information I've learned."
+    },
+    {
+      "question": "where are you from",
+      "answer": "I exist in the cloud! I'm accessible from anywhere with an internet connection."
+    },
+    {
+      "question": "what languages do you speak",
+      "answer": "I can understand and respond in multiple languages including English, Spanish, French, German, Chinese, Japanese, Hindi, and Tamil! Just select your preferred language."
+    },
+    {
+      "question": "can you learn",
+      "answer": "Yes! I'm constantly learning and improving from interactions. When online, I use AI to provide better responses."
+    },
+    {
+      "question": "are you free",
+      "answer": "Yes! I'm completely free to use. There's no charge for talking with me."
+    },
+    {
+      "question": "what is the capital of india",
+      "answer": "The capital of India is New Delhi."
+    },
+    {
+      "question": "what is the capital of usa",
+      "answer": "The capital of the United States is Washington, D.C."
+    },
+    {
+      "question": "what is the capital of france",
+      "answer": "The capital of France is Paris."
+    },
+    {
+      "question": "what is the capital of japan",
+      "answer": "The capital of Japan is Tokyo."
+    },
+    {
+      "question": "what is 2+2",
+      "answer": "2 + 2 = 4"
+    },
+    {
+      "question": "what is 10*10",
+      "answer": "10 × 10 = 100"
+    },
+    {
+      "question": "who invented computer",
+      "answer": "The computer was developed through the work of many inventors, but Charles Babbage is often credited as the 'father of the computer' for his work on the Analytical Engine in the 1830s."
+    },
+    {
+      "question": "who invented internet",
+      "answer": "The internet was developed through collaborative efforts, with key contributions from Vinton Cerf and Robert Kahn who developed TCP/IP protocols, and Tim Berners-Lee who invented the World Wide Web."
+    },
+    {
+      "question": "what is covid 19",
+      "answer": "COVID-19 is a disease caused by the SARS-CoV-2 virus, first identified in 2019. It's important to follow health guidelines from official sources for accurate information."
+    },
+    {
+      "question": "how to stay healthy",
+      "answer": "To stay healthy: eat a balanced diet, exercise regularly, get enough sleep, stay hydrated, manage stress, and visit your doctor for regular check-ups!"
+    },
+    {
+      "question": "what is meditation",
+      "answer": "Meditation is a practice where you focus your mind on a particular object, thought, or activity to achieve mental clarity and emotional calm."
+    },
+    {
+      "question": "how to learn programming",
+      "answer": "To learn programming: start with beginner-friendly languages like Python, practice daily, build small projects, use online resources (Codecademy, freeCodeCamp), and join programming communities!"
+    },
+    {
+      "question": "what is blockchain",
+      "answer": "Blockchain is a decentralized digital ledger that records transactions across many computers. It's the technology behind cryptocurrencies like Bitcoin."
     }
   ],
   "ta": [
@@ -89,6 +221,18 @@
     {
       "question": "நன்றி",
       "answer": "மிக்க நன்றி! உங்களுக்கு உதவ முடிந்ததில் மகிழ்ச்சி!"
+    },
+    {
+      "question": "இந்தியாவின் தலைநகரம் எது",
+      "answer": "இந்தியாவின் தலைநகரம் புது தில்லி ஆகும்."
+    },
+    {
+      "question": "தமிழ்நாட்டின் தலைநகரம் எது",
+      "answer": "தமிழ்நாட்டின் தலைநகரம் சென்னை ஆகும்."
+    },
+    {
+      "question": "நீங்கள் என்ன செய்ய முடியும்",
+      "answer": "நான் கேள்விகளுக்கு பதிலளிக்கலாம், உரையாடல்களை நடத்தலாம், தகவல்களை வழங்கலாம், மேலும் பல மொழிகளை ஆதரிக்கலாம்!"
     }
   ]
 }

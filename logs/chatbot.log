@@ -289,3 +289,128 @@
 2026-03-24 15:04:34,150 - werkzeug - INFO - 10.46.219.2 - - [24/Mar/2026 15:04:34] "GET /api/check_internet HTTP/1.1" 200 -
 2026-03-24 15:05:35,404 - utils.internet_checker - INFO - Internet connection: Available
 2026-03-24 15:05:35,408 - werkzeug - INFO - 10.46.219.2 - - [24/Mar/2026 15:05:35] "GET /api/check_internet HTTP/1.1" 200 -
+2026-03-24 15:36:54,120 - utils.gemini_client - INFO - API key loaded (length: 39)
+2026-03-24 15:36:54,120 - utils.gemini_client - INFO - Gemini API configured
+2026-03-24 15:36:54,120 - utils.gemini_client - INFO - Will try models in order: ['models/gemini-flash-latest', 'models/gemini-2.5-flash', 'models/gemini-2.5-pro', 'models/gemini-2.0-flash-001', 'models/gemini-2.0-flash-lite-001', 'models/gemini-flash-lite-latest', 'models/gemini-pro-latest']
+2026-03-24 15:36:54,120 - utils.gemini_client - INFO - Attempting to initialize model: models/gemini-flash-latest
+2026-03-24 15:36:54,120 - utils.gemini_client - INFO - Testing models/gemini-flash-latest...
+2026-03-24 15:37:31,797 - utils.gemini_client - INFO - API key loaded (length: 39)
+2026-03-24 15:37:31,799 - utils.gemini_client - INFO - Gemini API configured
+2026-03-24 15:37:31,799 - utils.gemini_client - INFO - Will try models in order: ['models/gemini-flash-latest', 'models/gemini-2.5-flash', 'models/gemini-2.5-pro', 'models/gemini-2.0-flash-001', 'models/gemini-2.0-flash-lite-001', 'models/gemini-flash-lite-latest', 'models/gemini-pro-latest']
+2026-03-24 15:37:31,799 - utils.gemini_client - INFO - Attempting to initialize model: models/gemini-flash-latest
+2026-03-24 15:37:31,799 - utils.gemini_client - INFO - Testing models/gemini-flash-latest...
+2026-03-24 15:37:34,288 - utils.db_handler - INFO - Loaded database with 2 languages
+2026-03-24 15:37:34,291 - __main__ - INFO - Starting Multilingual Chatbot Application
+2026-03-24 15:37:34,321 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.46.219.2:5000
+2026-03-24 15:37:34,321 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-24 15:37:34,328 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-24 15:37:36,416 - utils.gemini_client - INFO - API key loaded (length: 39)
+2026-03-24 15:37:36,418 - utils.gemini_client - INFO - Gemini API configured
+2026-03-24 15:37:36,418 - utils.gemini_client - INFO - Will try models in order: ['models/gemini-flash-latest', 'models/gemini-2.5-flash', 'models/gemini-2.5-pro', 'models/gemini-2.0-flash-001', 'models/gemini-2.0-flash-lite-001', 'models/gemini-flash-lite-latest', 'models/gemini-pro-latest']
+2026-03-24 15:37:36,418 - utils.gemini_client - INFO - Attempting to initialize model: models/gemini-flash-latest
+2026-03-24 15:37:36,420 - utils.gemini_client - INFO - Testing models/gemini-flash-latest...
+2026-03-24 15:37:37,776 - utils.gemini_client - INFO - Attempting to initialize model: models/gemini-2.5-flash
+2026-03-24 15:37:37,776 - utils.gemini_client - INFO - Testing models/gemini-2.5-flash...
+2026-03-24 15:37:37,967 - utils.gemini_client - INFO - Attempting to initialize model: models/gemini-2.5-pro
+2026-03-24 15:37:37,967 - utils.gemini_client - INFO - Testing models/gemini-2.5-pro...
+2026-03-24 15:37:38,260 - utils.gemini_client - INFO - Attempting to initialize model: models/gemini-2.0-flash-001
+2026-03-24 15:37:38,260 - utils.gemini_client - INFO - Testing models/gemini-2.0-flash-001...
+2026-03-24 15:37:38,537 - utils.gemini_client - INFO - Attempting to initialize model: models/gemini-2.0-flash-lite-001
+2026-03-24 15:37:38,545 - utils.gemini_client - INFO - Testing models/gemini-2.0-flash-lite-001...
+2026-03-24 15:37:38,852 - utils.gemini_client - INFO - Attempting to initialize model: models/gemini-flash-lite-latest
+2026-03-24 15:37:38,852 - utils.gemini_client - INFO - Testing models/gemini-flash-lite-latest...
+2026-03-24 15:37:39,147 - utils.gemini_client - INFO - Attempting to initialize model: models/gemini-pro-latest
+2026-03-24 15:37:39,150 - utils.gemini_client - INFO - Testing models/gemini-pro-latest...
+2026-03-24 15:37:39,442 - utils.gemini_client - ERROR - Could not initialize Gemini: No working model found
+2026-03-24 15:37:39,444 - utils.db_handler - INFO - Loaded database with 2 languages
+2026-03-24 15:37:39,448 - __main__ - INFO - Starting Multilingual Chatbot Application
+2026-03-24 15:37:39,490 - werkzeug - WARNING -  * Debugger is active!
+2026-03-24 15:37:39,511 - werkzeug - INFO -  * Debugger PIN: 192-555-524
+2026-03-24 15:38:28,980 - utils.gemini_client - INFO - API key loaded (length: 39)
+2026-03-24 15:38:28,980 - utils.gemini_client - INFO - Gemini API configured
+2026-03-24 15:38:28,980 - utils.gemini_client - INFO - Will try models in order: ['models/gemini-flash-latest', 'models/gemini-2.5-flash', 'models/gemini-2.5-pro', 'models/gemini-2.0-flash-001', 'models/gemini-2.0-flash-lite-001', 'models/gemini-flash-lite-latest', 'models/gemini-pro-latest']
+2026-03-24 15:38:28,980 - utils.gemini_client - INFO - Attempting to initialize model: models/gemini-flash-latest
+2026-03-24 15:38:28,980 - utils.gemini_client - INFO - Testing models/gemini-flash-latest...
+2026-03-24 15:38:29,920 - utils.gemini_client - INFO - Attempting to initialize model: models/gemini-2.5-flash
+2026-03-24 15:38:29,921 - utils.gemini_client - INFO - Testing models/gemini-2.5-flash...
+2026-03-24 15:38:30,198 - utils.gemini_client - INFO - Attempting to initialize model: models/gemini-2.5-pro
+2026-03-24 15:38:30,198 - utils.gemini_client - INFO - Testing models/gemini-2.5-pro...
+2026-03-24 15:38:30,458 - utils.gemini_client - INFO - Attempting to initialize model: models/gemini-2.0-flash-001
+2026-03-24 15:38:30,459 - utils.gemini_client - INFO - Testing models/gemini-2.0-flash-001...
+2026-03-24 15:38:30,680 - utils.gemini_client - INFO - Attempting to initialize model: models/gemini-2.0-flash-lite-001
+2026-03-24 15:38:30,680 - utils.gemini_client - INFO - Testing models/gemini-2.0-flash-lite-001...
+2026-03-24 15:38:30,854 - utils.gemini_client - INFO - Attempting to initialize model: models/gemini-flash-lite-latest
+2026-03-24 15:38:30,854 - utils.gemini_client - INFO - Testing models/gemini-flash-lite-latest...
+2026-03-24 15:38:31,015 - utils.gemini_client - INFO - Attempting to initialize model: models/gemini-pro-latest
+2026-03-24 15:38:31,015 - utils.gemini_client - INFO - Testing models/gemini-pro-latest...
+2026-03-24 15:38:31,171 - utils.gemini_client - ERROR - Could not initialize Gemini: No working model found
+2026-03-24 15:38:31,181 - utils.db_handler - INFO - Loaded database with 2 languages
+2026-03-24 15:38:31,183 - __main__ - INFO - Starting Multilingual Chatbot Application
+2026-03-24 15:38:31,217 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.46.219.2:5000
+2026-03-24 15:38:31,220 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-24 15:38:31,232 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-24 15:38:33,487 - utils.gemini_client - INFO - API key loaded (length: 39)
+2026-03-24 15:38:33,487 - utils.gemini_client - INFO - Gemini API configured
+2026-03-24 15:38:33,487 - utils.gemini_client - INFO - Will try models in order: ['models/gemini-flash-latest', 'models/gemini-2.5-flash', 'models/gemini-2.5-pro', 'models/gemini-2.0-flash-001', 'models/gemini-2.0-flash-lite-001', 'models/gemini-flash-lite-latest', 'models/gemini-pro-latest']
+2026-03-24 15:38:33,487 - utils.gemini_client - INFO - Attempting to initialize model: models/gemini-flash-latest
+2026-03-24 15:38:33,487 - utils.gemini_client - INFO - Testing models/gemini-flash-latest...
+2026-03-24 15:38:34,104 - utils.gemini_client - INFO - Attempting to initialize model: models/gemini-2.5-flash
+2026-03-24 15:38:34,104 - utils.gemini_client - INFO - Testing models/gemini-2.5-flash...
+2026-03-24 15:38:34,347 - utils.gemini_client - INFO - Attempting to initialize model: models/gemini-2.5-pro
+2026-03-24 15:38:34,347 - utils.gemini_client - INFO - Testing models/gemini-2.5-pro...
+2026-03-24 15:38:34,570 - utils.gemini_client - INFO - Attempting to initialize model: models/gemini-2.0-flash-001
+2026-03-24 15:38:34,570 - utils.gemini_client - INFO - Testing models/gemini-2.0-flash-001...
+2026-03-24 15:38:34,818 - utils.gemini_client - INFO - Attempting to initialize model: models/gemini-2.0-flash-lite-001
+2026-03-24 15:38:34,818 - utils.gemini_client - INFO - Testing models/gemini-2.0-flash-lite-001...
+2026-03-24 15:38:35,011 - utils.gemini_client - INFO - Attempting to initialize model: models/gemini-flash-lite-latest
+2026-03-24 15:38:35,015 - utils.gemini_client - INFO - Testing models/gemini-flash-lite-latest...
+2026-03-24 15:38:35,165 - utils.gemini_client - INFO - Attempting to initialize model: models/gemini-pro-latest
+2026-03-24 15:38:35,165 - utils.gemini_client - INFO - Testing models/gemini-pro-latest...
+2026-03-24 15:38:35,489 - utils.gemini_client - ERROR - Could not initialize Gemini: No working model found
+2026-03-24 15:38:35,489 - utils.db_handler - INFO - Loaded database with 2 languages
+2026-03-24 15:38:35,496 - __main__ - INFO - Starting Multilingual Chatbot Application
+2026-03-24 15:38:35,521 - werkzeug - WARNING -  * Debugger is active!
+2026-03-24 15:38:35,528 - werkzeug - INFO -  * Debugger PIN: 192-555-524
+2026-03-24 15:41:44,184 - utils.gemini_client - INFO - API key loaded (length: 39)
+2026-03-24 15:41:44,184 - utils.gemini_client - INFO - Gemini API configured
+2026-03-24 15:41:44,184 - utils.gemini_client - INFO - Will try models in order: ['models/gemini-flash-latest', 'models/gemini-2.5-flash', 'models/gemini-2.5-pro', 'models/gemini-2.0-flash-001', 'models/gemini-2.0-flash-lite-001', 'models/gemini-flash-lite-latest', 'models/gemini-pro-latest']
+2026-03-24 15:41:44,184 - utils.gemini_client - INFO - Attempting to initialize model: models/gemini-flash-latest
+2026-03-24 15:41:44,184 - utils.gemini_client - INFO - Testing models/gemini-flash-latest...
+2026-03-24 15:42:00,149 - utils.db_handler - INFO - Loaded database with 2 languages
+2026-03-24 15:42:00,152 - __main__ - INFO - Starting Multilingual Chatbot Application
+2026-03-24 15:42:00,178 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.46.219.2:5000
+2026-03-24 15:42:00,178 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-24 15:42:00,191 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-24 15:42:01,792 - utils.gemini_client - INFO - API key loaded (length: 39)
+2026-03-24 15:42:01,792 - utils.gemini_client - INFO - Gemini API configured
+2026-03-24 15:42:01,792 - utils.gemini_client - INFO - Will try models in order: ['models/gemini-flash-latest', 'models/gemini-2.5-flash', 'models/gemini-2.5-pro', 'models/gemini-2.0-flash-001', 'models/gemini-2.0-flash-lite-001', 'models/gemini-flash-lite-latest', 'models/gemini-pro-latest']
+2026-03-24 15:42:01,792 - utils.gemini_client - INFO - Attempting to initialize model: models/gemini-flash-latest
+2026-03-24 15:42:01,792 - utils.gemini_client - INFO - Testing models/gemini-flash-latest...
+2026-03-24 15:42:04,305 - utils.db_handler - INFO - Loaded database with 2 languages
+2026-03-24 15:42:04,311 - __main__ - INFO - Starting Multilingual Chatbot Application
+2026-03-24 15:42:04,325 - werkzeug - WARNING -  * Debugger is active!
+2026-03-24 15:42:04,336 - werkzeug - INFO -  * Debugger PIN: 192-555-524
+2026-03-24 15:42:12,677 - werkzeug - INFO - 10.46.219.2 - - [24/Mar/2026 15:42:12] "GET / HTTP/1.1" 200 -
+2026-03-24 15:42:12,986 - werkzeug - INFO - 10.46.219.2 - - [24/Mar/2026 15:42:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-24 15:42:12,993 - werkzeug - INFO - 10.46.219.2 - - [24/Mar/2026 15:42:12] "[36mGET /static/js/chat.js HTTP/1.1[0m" 304 -
+2026-03-24 15:42:13,128 - werkzeug - INFO - 10.46.219.2 - - [24/Mar/2026 15:42:13] "GET /api/languages HTTP/1.1" 200 -
+2026-03-24 15:42:13,154 - utils.internet_checker - INFO - Internet connection: Not Available
+2026-03-24 15:42:13,154 - werkzeug - INFO - 10.46.219.2 - - [24/Mar/2026 15:42:13] "GET /api/greeting?language=en HTTP/1.1" 200 -
+2026-03-24 15:42:13,154 - werkzeug - INFO - 10.46.219.2 - - [24/Mar/2026 15:42:13] "GET /api/check_internet HTTP/1.1" 200 -
+2026-03-24 15:42:35,361 - __main__ - INFO - Received message in en: what is meditation?
+2026-03-24 15:42:38,176 - __main__ - INFO - Detected language: en
+2026-03-24 15:42:41,075 - __main__ - INFO - Using Gemini AI for response
+2026-03-24 15:42:41,078 - utils.gemini_client - INFO - Sending request to Gemini (model: gemini-flash-latest, language: en)
+2026-03-24 15:42:45,841 - utils.internet_checker - INFO - Internet connection: Available
+2026-03-24 15:42:45,844 - werkzeug - INFO - 10.46.219.2 - - [24/Mar/2026 15:42:45] "GET /api/check_internet HTTP/1.1" 200 -
+2026-03-24 15:42:47,899 - werkzeug - INFO -  * Detected change in 'C:\\Users\\visha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\werkzeug\\debug\\__init__.py', reloading
+2026-03-24 15:42:47,931 - werkzeug - INFO - 10.46.219.2 - - [24/Mar/2026 15:42:47] "POST /api/chat HTTP/1.1" 200 -
