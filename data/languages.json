@@ -1,0 +1,42 @@
+{
+  "en": {
+    "name": "English",
+    "greeting": "Hello! How can I help you today?",
+    "offline_mode": "Currently in offline mode. Using local database.",
+    "online_mode": "Connected to Gemini AI. Ask me anything!",
+    "no_match": "I don't have an answer for that in my database. Please connect to internet for AI assistance.",
+    "error": "Sorry, something went wrong. Please try again."
+  },
+  "es": {
+    "name": "Español",
+    "greeting": "¡Hola! ¿Cómo puedo ayudarte hoy?",
+    "offline_mode": "Actualmente en modo offline. Usando base de datos local.",
+    "online_mode": "Conectado a Gemini AI. ¡Pregúntame cualquier cosa!",
+    "no_match": "No tengo una respuesta para eso en mi base de datos. Conéctate a internet para asistencia de IA.",
+    "error": "Lo siento, algo salió mal. Por favor, inténtalo de nuevo."
+  },
+  "fr": {
+    "name": "Français",
+    "greeting": "Bonjour! Comment puis-je vous aider aujourd'hui?",
+    "offline_mode": "Actuellement en mode hors ligne. Utilisation de la base de données locale.",
+    "online_mode": "Connecté à Gemini AI. Demandez-moi n'importe quoi!",
+    "no_match": "Je n'ai pas de réponse pour cela dans ma base de données. Veuillez vous connecter à Internet pour l'assistance IA.",
+    "error": "Désolé, quelque chose s'est mal passé. Veuillez réessayer."
+  },
+  "de": {
+    "name": "Deutsch",
+    "greeting": "Hallo! Wie kann ich Ihnen heute helfen?",
+    "offline_mode": "Derzeit im Offline-Modus. Verwende lokale Datenbank.",
+    "online_mode": "Verbunden mit Gemini AI. Fragen Sie mich alles!",
+    "no_match": "Ich habe keine Antwort dafür in meiner Datenbank. Bitte verbinden Sie sich mit dem Internet für KI-Unterstützung.",
+    "error": "Entschuldigung, etwas ist schief gelaufen. Bitte versuchen Sie es erneut."
+  },
+  "zh": {
+    "name": "中文",
+    "greeting": "你好！我今天能帮你什么？",
+    "offline_mode": "当前处于离线模式。使用本地数据库。",
+    "online_mode": "已连接到Gemini AI。问我任何问题！",
+    "no_match": "我在数据库中没有这个问题的答案。请连接互联网获取AI帮助。",
+    "error": "抱歉，出了点问题。请再试一次。"
+  }
+}   

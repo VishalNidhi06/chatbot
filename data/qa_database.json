@@ -1,0 +1,72 @@
+{
+  "en": [
+    {
+      "question": "hello",
+      "answer": "Hello! How can I help you today?"
+    },
+    {
+      "question": "how are you",
+      "answer": "I'm doing great! Thanks for asking. How can I assist you?"
+    },
+    {
+      "question": "what is your name",
+      "answer": "I'm a multilingual chatbot powered by AI. You can call me ChatBot!"
+    },
+    {
+      "question": "help",
+      "answer": "I can help you with general questions. If I'm online, I'll use AI to give you better answers!"
+    },
+    {
+      "question": "bye",
+      "answer": "Goodbye! Have a great day!"
+    }
+  ],
+  "es": [
+    {
+      "question": "hola",
+      "answer": "¡Hola! ¿Cómo puedo ayudarte hoy?"
+    },
+    {
+      "question": "cómo estás",
+      "answer": "¡Estoy muy bien! Gracias por preguntar. ¿Cómo puedo ayudarte?"
+    },
+    {
+      "question": "cuál es tu nombre",
+      "answer": "Soy un chatbot multilingüe impulsado por IA. ¡Puedes llamarme ChatBot!"
+    },
+    {
+      "question": "ayuda",
+      "answer": "Puedo ayudarte con preguntas generales. ¡Si estoy en línea, usaré IA para darte mejores respuestas!"
+    }
+  ],
+  "fr": [
+    {
+      "question": "bonjour",
+      "answer": "Bonjour! Comment puis-je vous aider aujourd'hui?"
+    },
+    {
+      "question": "comment allez-vous",
+      "answer": "Je vais très bien! Merci de demander. Comment puis-je vous aider?"
+    }
+  ],
+  "de": [
+    {
+      "question": "hallo",
+      "answer": "Hallo! Wie kann ich Ihnen heute helfen?"
+    },
+    {
+      "question": "wie geht es dir",
+      "answer": "Mir geht es großartig! Danke der Nachfrage. Wie kann ich Ihnen helfen?"
+    }
+  ],
+  "zh": [
+    {
+      "question": "你好",
+      "answer": "你好！我今天能帮你什么？"
+    },
+    {
+      "question": "你好吗",
+      "answer": "我很好！谢谢关心。我能帮你什么？"
+    }
+  ]
+}

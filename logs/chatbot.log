@@ -1,0 +1,92 @@
+2026-03-24 12:05:50,761 - utils.gemini_client - ERROR - Failed to initialize Gemini: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-03-24 12:05:50,761 - utils.db_handler - INFO - Loaded database with 5 languages
+2026-03-24 12:05:50,776 - __main__ - INFO - Starting Multilingual Chatbot Application
+2026-03-24 12:05:50,809 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.10.42.28:5000
+2026-03-24 12:05:50,809 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-24 12:05:50,825 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-24 12:05:52,352 - utils.gemini_client - ERROR - Failed to initialize Gemini: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-03-24 12:05:52,355 - utils.db_handler - INFO - Loaded database with 5 languages
+2026-03-24 12:05:52,355 - __main__ - INFO - Starting Multilingual Chatbot Application
+2026-03-24 12:05:52,369 - werkzeug - WARNING -  * Debugger is active!
+2026-03-24 12:05:52,369 - werkzeug - INFO -  * Debugger PIN: 192-555-524
+2026-03-24 12:06:04,252 - werkzeug - INFO - 10.10.42.28 - - [24/Mar/2026 12:06:04] "GET / HTTP/1.1" 200 -
+2026-03-24 12:06:04,557 - werkzeug - INFO - 10.10.42.28 - - [24/Mar/2026 12:06:04] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-24 12:06:04,576 - werkzeug - INFO - 10.10.42.28 - - [24/Mar/2026 12:06:04] "GET /static/js/chat.js HTTP/1.1" 200 -
+2026-03-24 12:06:04,688 - werkzeug - INFO - 10.10.42.28 - - [24/Mar/2026 12:06:04] "GET /api/languages HTTP/1.1" 200 -
+2026-03-24 12:06:04,717 - werkzeug - INFO - 10.10.42.28 - - [24/Mar/2026 12:06:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-24 12:06:07,165 - werkzeug - INFO - 10.10.42.28 - - [24/Mar/2026 12:06:07] "GET /api/greeting?language=en HTTP/1.1" 200 -
+2026-03-24 12:06:07,310 - utils.internet_checker - INFO - Internet connection: Available
+2026-03-24 12:06:07,315 - werkzeug - INFO - 10.10.42.28 - - [24/Mar/2026 12:06:07] "GET /api/check_internet HTTP/1.1" 200 -
+2026-03-24 12:06:20,899 - __main__ - INFO - Received message in en: explain me about AI
+2026-03-24 12:06:22,852 - __main__ - INFO - Detected language: en
+2026-03-24 12:06:25,131 - __main__ - INFO - Using local database for response
+2026-03-24 12:06:25,131 - werkzeug - INFO - 10.10.42.28 - - [24/Mar/2026 12:06:25] "POST /api/chat HTTP/1.1" 200 -
+2026-03-24 12:06:35,831 - utils.internet_checker - INFO - Internet connection: Available
+2026-03-24 12:06:35,831 - werkzeug - INFO - 10.10.42.28 - - [24/Mar/2026 12:06:35] "GET /api/check_internet HTTP/1.1" 200 -
+2026-03-24 12:06:49,931 - __main__ - INFO - Received message in en: how are you
+2026-03-24 12:06:51,808 - __main__ - INFO - Detected language: en
+2026-03-24 12:06:54,020 - __main__ - INFO - Using local database for response
+2026-03-24 12:06:54,020 - werkzeug - INFO - 10.10.42.28 - - [24/Mar/2026 12:06:54] "POST /api/chat HTTP/1.1" 200 -
+2026-03-24 12:07:06,836 - utils.internet_checker - INFO - Internet connection: Available
+2026-03-24 12:07:06,836 - werkzeug - INFO - 10.10.42.28 - - [24/Mar/2026 12:07:06] "GET /api/check_internet HTTP/1.1" 200 -
+2026-03-24 12:07:07,531 - werkzeug - INFO - 10.10.42.28 - - [24/Mar/2026 12:07:07] "GET /api/greeting?language=de HTTP/1.1" 200 -
+2026-03-24 12:07:08,966 - __main__ - INFO - Received message in de: hallo
+2026-03-24 12:07:08,968 - __main__ - INFO - Detected language: de
+2026-03-24 12:07:10,847 - __main__ - INFO - Using local database for response
+2026-03-24 12:07:10,851 - werkzeug - INFO - 10.10.42.28 - - [24/Mar/2026 12:07:10] "POST /api/chat HTTP/1.1" 200 -
+2026-03-24 14:07:54,347 - utils.gemini_client - ERROR - Failed to initialize Gemini: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-03-24 14:07:54,347 - utils.db_handler - INFO - Loaded database with 5 languages
+2026-03-24 14:07:54,347 - __main__ - INFO - Starting Multilingual Chatbot Application
+2026-03-24 14:07:54,395 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.10.42.28:5000
+2026-03-24 14:07:54,395 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-24 14:07:54,414 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-24 14:07:55,971 - utils.gemini_client - ERROR - Failed to initialize Gemini: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-03-24 14:07:55,974 - utils.db_handler - INFO - Loaded database with 5 languages
+2026-03-24 14:07:55,977 - __main__ - INFO - Starting Multilingual Chatbot Application
+2026-03-24 14:07:55,995 - werkzeug - WARNING -  * Debugger is active!
+2026-03-24 14:07:56,001 - werkzeug - INFO -  * Debugger PIN: 192-555-524
+2026-03-24 14:08:03,264 - werkzeug - INFO - 10.10.42.28 - - [24/Mar/2026 14:08:03] "GET / HTTP/1.1" 200 -
+2026-03-24 14:08:03,817 - werkzeug - INFO - 10.10.42.28 - - [24/Mar/2026 14:08:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-24 14:08:03,817 - werkzeug - INFO - 10.10.42.28 - - [24/Mar/2026 14:08:03] "[36mGET /static/js/chat.js HTTP/1.1[0m" 304 -
+2026-03-24 14:08:03,934 - werkzeug - INFO - 10.10.42.28 - - [24/Mar/2026 14:08:03] "GET /api/languages HTTP/1.1" 200 -
+2026-03-24 14:08:03,953 - werkzeug - INFO - 10.10.42.28 - - [24/Mar/2026 14:08:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-24 14:08:06,071 - utils.internet_checker - INFO - Internet connection: Available
+2026-03-24 14:08:06,075 - werkzeug - INFO - 10.10.42.28 - - [24/Mar/2026 14:08:06] "GET /api/greeting?language=en HTTP/1.1" 200 -
+2026-03-24 14:08:06,077 - werkzeug - INFO - 10.10.42.28 - - [24/Mar/2026 14:08:06] "GET /api/check_internet HTTP/1.1" 200 -
+2026-03-24 14:08:28,963 - werkzeug - INFO - 10.10.42.28 - - [24/Mar/2026 14:08:28] "GET /api/greeting?language=de HTTP/1.1" 200 -
+2026-03-24 14:08:29,147 - __main__ - INFO - Received message in de: hallo
+2026-03-24 14:08:29,149 - __main__ - INFO - Detected language: de
+2026-03-24 14:08:31,137 - __main__ - INFO - Using local database for response
+2026-03-24 14:08:31,137 - werkzeug - INFO - 10.10.42.28 - - [24/Mar/2026 14:08:31] "POST /api/chat HTTP/1.1" 200 -
+2026-03-24 14:08:35,720 - utils.internet_checker - INFO - Internet connection: Available
+2026-03-24 14:08:35,720 - werkzeug - INFO - 10.10.42.28 - - [24/Mar/2026 14:08:35] "GET /api/check_internet HTTP/1.1" 200 -
+2026-03-24 14:09:05,446 - utils.internet_checker - INFO - Internet connection: Available
+2026-03-24 14:09:05,446 - werkzeug - INFO - 10.10.42.28 - - [24/Mar/2026 14:09:05] "GET /api/check_internet HTTP/1.1" 200 -
+2026-03-24 14:09:28,252 - werkzeug - INFO - 10.10.42.28 - - [24/Mar/2026 14:09:28] "GET /api/greeting?language=en HTTP/1.1" 200 -
+2026-03-24 14:09:31,842 - __main__ - INFO - Received message in en: hello
+2026-03-24 14:09:35,811 - utils.internet_checker - INFO - Internet connection: Available
+2026-03-24 14:09:35,811 - werkzeug - INFO - 10.10.42.28 - - [24/Mar/2026 14:09:35] "GET /api/check_internet HTTP/1.1" 200 -
+2026-03-24 14:09:36,058 - __main__ - INFO - Detected language: en
+2026-03-24 14:09:38,278 - __main__ - INFO - Using local database for response
+2026-03-24 14:09:38,294 - werkzeug - INFO - 10.10.42.28 - - [24/Mar/2026 14:09:38] "POST /api/chat HTTP/1.1" 200 -
+2026-03-24 14:10:08,080 - utils.internet_checker - INFO - Internet connection: Available
+2026-03-24 14:10:08,082 - werkzeug - INFO - 10.10.42.28 - - [24/Mar/2026 14:10:08] "GET /api/check_internet HTTP/1.1" 200 -
+2026-03-24 14:10:36,265 - utils.internet_checker - INFO - Internet connection: Available
+2026-03-24 14:10:36,265 - werkzeug - INFO - 10.10.42.28 - - [24/Mar/2026 14:10:36] "GET /api/check_internet HTTP/1.1" 200 -
+2026-03-24 14:11:06,124 - utils.internet_checker - INFO - Internet connection: Available
+2026-03-24 14:11:06,124 - werkzeug - INFO - 10.10.42.28 - - [24/Mar/2026 14:11:06] "GET /api/check_internet HTTP/1.1" 200 -
+2026-03-24 14:11:35,974 - utils.internet_checker - INFO - Internet connection: Available
+2026-03-24 14:11:35,974 - werkzeug - INFO - 10.10.42.28 - - [24/Mar/2026 14:11:35] "GET /api/check_internet HTTP/1.1" 200 -
+2026-03-24 14:11:39,755 - werkzeug - INFO -  * Detected change in 'C:\\Users\\visha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask\\__init__.py', reloading
+2026-03-24 14:11:41,992 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-24 14:11:43,820 - utils.gemini_client - ERROR - Failed to initialize Gemini: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-03-24 14:11:43,823 - utils.db_handler - INFO - Loaded database with 5 languages
+2026-03-24 14:11:43,825 - __main__ - INFO - Starting Multilingual Chatbot Application
+2026-03-24 14:11:43,860 - werkzeug - WARNING -  * Debugger is active!
+2026-03-24 14:11:43,872 - werkzeug - INFO -  * Debugger PIN: 192-555-524
