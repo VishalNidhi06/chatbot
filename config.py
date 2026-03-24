@@ -8,13 +8,13 @@ load_dotenv()
 class Config:
     # Gemini API Configuration
     GEMINI_API_KEY = os.getenv('GEMINI_API_KEY', '')
-    GEMINI_MODEL = 'gemini-pro'
+    GEMINI_MODEL = os.getenv('GEMINI_MODEL', 'gemini-flash-latest')
     
     # Application Configuration
     DEBUG = True
     SECRET_KEY = os.getenv('SECRET_KEY', 'your-secret-key-here')
     
-    # File Paths - Use absolute paths
+    # File Paths
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
     QA_DATABASE_PATH = os.path.join(BASE_DIR, 'data', 'qa_database.json')
     LANGUAGES_PATH = os.path.join(BASE_DIR, 'data', 'languages.json')
@@ -24,16 +24,15 @@ class Config:
     INTERNET_CHECK_URL = 'https://www.google.com'
     INTERNET_CHECK_TIMEOUT = 5
     
-    # Supported Languages
-    SUPPORTED_LANGUAGES = ['en', 'es', 'fr', 'de', 'zh', 'ja', 'hi']
+    # Supported Languages - ADD TAMIL HERE
+    SUPPORTED_LANGUAGES = ['en', 'es', 'fr', 'de', 'zh', 'ja', 'hi', 'ta']  # Added 'ta' for Tamil
     DEFAULT_LANGUAGE = 'en'
     
     # Translation Configuration
-    USE_TRANSLATION_API = True  # Set to False to disable translation API
+    USE_TRANSLATION_API = True
     TRANSLATION_API_URL = 'https://libretranslate.com/translate'
     TRANSLATION_API_TIMEOUT = 5
     
-    # Ensure directories exist
     @staticmethod
     def ensure_directories():
         """Create necessary directories if they don't exist"""

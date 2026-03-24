@@ -29,44 +29,66 @@
     {
       "question": "cómo estás",
       "answer": "¡Estoy muy bien! Gracias por preguntar. ¿Cómo puedo ayudarte?"
-    },
-    {
-      "question": "cuál es tu nombre",
-      "answer": "Soy un chatbot multilingüe impulsado por IA. ¡Puedes llamarme ChatBot!"
-    },
-    {
-      "question": "ayuda",
-      "answer": "Puedo ayudarte con preguntas generales. ¡Si estoy en línea, usaré IA para darte mejores respuestas!"
     }
   ],
   "fr": [
     {
       "question": "bonjour",
       "answer": "Bonjour! Comment puis-je vous aider aujourd'hui?"
-    },
-    {
-      "question": "comment allez-vous",
-      "answer": "Je vais très bien! Merci de demander. Comment puis-je vous aider?"
     }
   ],
   "de": [
     {
       "question": "hallo",
       "answer": "Hallo! Wie kann ich Ihnen heute helfen?"
-    },
-    {
-      "question": "wie geht es dir",
-      "answer": "Mir geht es großartig! Danke der Nachfrage. Wie kann ich Ihnen helfen?"
     }
   ],
   "zh": [
     {
       "question": "你好",
       "answer": "你好！我今天能帮你什么？"
+    }
+  ],
+  "ja": [
+    {
+      "question": "こんにちは",
+      "answer": "こんにちは！どのようにお手伝いできますか？"
+    }
+  ],
+  "hi": [
+    {
+      "question": "नमस्ते",
+      "answer": "नमस्ते! आज मैं आपकी कैसे मदद कर सकता हूँ?"
     },
     {
-      "question": "你好吗",
-      "answer": "我很好！谢谢关心。我能帮你什么？"
+      "question": "आप कैसे हैं",
+      "answer": "मैं बहुत अच्छा हूँ! पूछने के लिए धन्यवाद। मैं आपकी कैसे सहायता कर सकता हूँ?"
+    }
+  ],
+  "ta": [
+    {
+      "question": "வணக்கம்",
+      "answer": "வணக்கம்! இன்று நான் உங்களுக்கு எவ்வாறு உதவ முடியும்?"
+    },
+    {
+      "question": "நீங்கள் எப்படி இருக்கிறீர்கள்",
+      "answer": "நான் நன்றாக இருக்கிறேன்! கேட்டதற்கு நன்றி. நான் உங்களுக்கு எவ்வாறு உதவ முடியும்?"
+    },
+    {
+      "question": "உங்கள் பெயர் என்ன",
+      "answer": "நான் AI ஆல் இயக்கப்படும் பல்மொழி அரட்டைப் பொறி. நீங்கள் என்னை ChatBot என்று அழைக்கலாம்!"
+    },
+    {
+      "question": "உதவி",
+      "answer": "நான் பொதுவான கேள்விகளுக்கு உதவ முடியும். நான் ஆன்லைனில் இருந்தால், சிறந்த பதில்களைத் தர AI ஐப் பயன்படுத்துவேன்!"
+    },
+    {
+      "question": "பிரியாவிடை",
+      "answer": "பிரியாவிடை! உங்கள் நாள் நன்றாக அமையட்டும்!"
+    },
+    {
+      "question": "நன்றி",
+      "answer": "மிக்க நன்றி! உங்களுக்கு உதவ முடிந்ததில் மகிழ்ச்சி!"
     }
   ]
 }

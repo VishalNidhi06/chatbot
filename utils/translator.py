@@ -16,7 +16,7 @@ class Translator:
         self.offline_phrases = self._load_offline_phrases()
     
     def _load_offline_phrases(self):
-        """Load offline translation phrases"""
+        """Load offline translation phrases with Tamil support"""
         return {
             'en': {
                 'hello': 'Hello!',
@@ -73,6 +73,14 @@ class Translator:
                 'goodbye': 'अलविदा!',
                 'sorry': 'माफ़ कीजिये!',
                 'help': 'मैं आपकी कैसे मदद कर सकता हूँ?'
+            },
+            'ta': {  # Added Tamil phrases
+                'hello': 'வணக்கம்!',
+                'how are you': 'நீங்கள் எப்படி இருக்கிறீர்கள்?',
+                'thank you': 'நன்றி!',
+                'goodbye': 'பிரியாவிடை!',
+                'sorry': 'மன்னிக்கவும்!',
+                'help': 'நான் உங்களுக்கு எவ்வாறு உதவ முடியும்?'
             }
         }
     
@@ -117,15 +125,16 @@ class Translator:
         text_lower = text.lower().strip()
         
         # Check if it's a common phrase
-        for phrase_key, translation in self.offline_phrases.get(target_language, {}).items():
-            if phrase_key in text_lower:
-                return translation
+        if target_language in self.offline_phrases:
+            for phrase_key, translation in self.offline_phrases[target_language].items():
+                if phrase_key in text_lower:
+                    return translation
         
         # If no match found, return original text
         return text
     
     def detect_language(self, text):
-        """Detect language of given text with improved fallback"""
+        """Detect language of given text with improved Tamil support"""
         if not text:
             return self.default_language
         
@@ -136,7 +145,8 @@ class Translator:
             'de': ['hallo', 'wie', 'danke', 'auf wiedersehen', 'bitte'],
             'zh': ['你好', '谢谢', '再见', '帮助', '怎么样'],
             'ja': ['こんにちは', 'ありがとう', 'さようなら', '助けて'],
-            'hi': ['नमस्ते', 'धन्यवाद', 'अलविदा', 'मदद']
+            'hi': ['नमस्ते', 'धन्यवाद', 'अलविदा', 'मदद'],
+            'ta': ['வணக்கம்', 'நன்றி', 'பிரியாவிடை', 'உதவி', 'எப்படி']  # Added Tamil keywords
         }
         
         text_lower = text.lower()
@@ -167,7 +177,7 @@ class Translator:
         return self.default_language
     
     def get_supported_languages(self):
-        """Get list of supported languages for translation"""
+        """Get list of supported languages for translation with Tamil"""
         language_names = {
             'en': 'English',
             'es': 'Spanish',
@@ -175,7 +185,8 @@ class Translator:
             'de': 'German',
             'zh': 'Chinese',
             'ja': 'Japanese',
-            'hi': 'Hindi'
+            'hi': 'Hindi',
+            'ta': 'Tamil'  # Added Tamil name
         }
         
         return [{
@@ -192,7 +203,8 @@ class Translator:
             'de': 'German',
             'zh': 'Chinese',
             'ja': 'Japanese',
-            'hi': 'Hindi'
+            'hi': 'Hindi',
+            'ta': 'Tamil'  # Added Tamil name
         }
         return language_names.get(language_code, language_code)
     
@@ -208,7 +220,8 @@ class Translator:
             'de': 'Bitte antworte auf Deutsch.',
             'zh': '请用中文回复。',
             'ja': '日本語で返答してください。',
-            'hi': 'कृपया हिंदी में जवाब दें।'
+            'hi': 'कृपया हिंदी में जवाब दें।',
+            'ta': 'தயவுசெய்து தமிழில் பதிலளிக்கவும்.'  # Added Tamil instruction
         }
         
         instruction = language_instructions.get(user_language, f'Please respond in {user_language} language.')
